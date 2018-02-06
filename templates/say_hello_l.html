@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+	{% block body %}
+	<ul>
+	    {% for name in names %}
+	        <li>{{ name }}</li>
+	    {% endfor %}
+	</ul>
+	<form action="{{ url_for('say_hello') }}" method="post">
+	    <input type="text" name="name" placeholder="Enter Name Here">
+	    <button>Say Hello!</button>
+	</form>
+	{% endblock %}
