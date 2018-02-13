@@ -1,0 +1,8 @@
+CREATE TABLE yelp (
+	id SERIAL PRIMARY KEY, 
+	name VARCHAR NOT NULL, 
+	postal_code VARCHAR NOT NULL, 
+	stars DECIMAL NOT NULL,
+	review_count INTEGER NOT NULL, 
+	categories VARCHAR NOT NULL
+);

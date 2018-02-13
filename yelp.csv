@@ -1,0 +1,98 @@
+name,postal_code,stars,review_count,categories
+"""Dental by Design""",85044,4,22,Dentists;General Dentistry;Health & Medical;Oral Surgeons;Cosmetic Dentists;Orthodontists
+"""Stephen Szabo Salon""",15317,3,11,Hair Stylists;Hair Salons;Men's Hair Salons;Blow Dry/Out Services;Hair Extensions;Beauty & Spas
+"""Western Motor Vehicle""",85017,1.5,18,Departments of Motor Vehicles;Public Services & Government
+"""Sports Authority""",85282,3,9,Sporting Goods;Shopping
+"""Brick House Tavern + Tap""",44221,3.5,116,American (New);Nightlife;Bars;Sandwiches;American (Traditional);Burgers;Restaurants
+"""Messina""",70567,4,5,Italian;Restaurants
+"""BDJ Realty""",89128,4,5,Real Estate Services;Real Estate;Home Services;Property Management
+"""Soccer Zone""",89128,1.5,9,Shopping;Sporting Goods
+"""Any Given Sundae""",15090,5,15,Coffee & Tea;Ice Cream & Frozen Yogurt;Food
+"""Detailing Gone Mobile""",89014,5,7,Automotive;Auto Detailing
+"""East Coast Coffee""",15342,4.5,3,Breakfast & Brunch;Gluten-Free;Coffee & Tea;Food;Restaurants;Sandwiches
+"""CubeSmart Self Storage""",85286,5,23,Local Services;Self Storage
+"""T & T Bakery and Cafe""",L3P 1X3,4,38,Bakeries;Bagels;Food
+"""Complete Dental Care""",15120,2,5,General Dentistry;Dentists;Endodontists;Cosmetic Dentists;Health & Medical;Orthodontists
+"""Showmars Government Center""",28202,3.5,7,Restaurants;American (Traditional)
+"""Alize Catering""",M4P 2H6,3,12,Italian;French;Restaurants
+"""T & Y Nail Spa""",85381,3,20,Beauty & Spas;Nail Salons
+"""Meineke Car Care Center""",53590,3.5,9,Tires;Oil Change Stations;Auto Repair;Automotive
+"""Senior's Barber Shop""",85395,5,65,Barbers;Beauty & Spas
+"""Maxim Bakery & Restaurant""",L4C 9V4,3.5,34,French;Food;Bakeries;Restaurants
+"""Starbucks""",M6K 3S3,4,21,Food;Coffee & Tea
+"""Fye""",85204,4.5,4,Shopping;Books;Mags;Music & Video;Music & DVDs
+"""TSA Checkpoint T-4 A - Phoenix Sky Harbor International Airport""",85034,1.5,46,Public Services & Government
+"""GoodLife Fitness""",L5B 2C9,2,16,Fitness & Instruction;Sports Clubs;Gyms;Trainers;Active Life
+"""Sportster's""",M4J 1N4,2.5,7,Bars;Sports Bars;Nightlife
+"""Chula Taberna Mexicana""",M4M 3A6,3.5,39,Tiki Bars;Nightlife;Mexican;Restaurants;Bars
+"""Alfredo's Jewelry""",89119,4.5,23,Shopping;Jewelry;Watch Repair;Local Services
+"""DAVIDsTEA""",M5B 2G9,4,6,Coffee & Tea;Food;Tea Rooms
+"""Panera Bread""",44035,2,4,Soup;Salad;Sandwiches;Restaurants
+"""Toast Cafe""",29708,3.5,6,Food;American (Traditional);Coffee & Tea;Restaurants
+"""Sunnyside Grill""",M3J 3K5,5,3,Restaurants;Breakfast & Brunch
+"""Good Brakes Automotive""",85022,4,5,Oil Change Stations;Smog Check Stations;Automotive;Auto Repair
+"""Le Bistro Balmoral""",H2X 2A1,3,8,Arts & Entertainment;Festivals;Restaurants;French;Gastropubs
+"""Bampot House of Tea & Board Games""",M5S 1H6,4,55,Coffee & Tea;Restaurants;Food;Mediterranean;Tea Rooms
+"""Bubbly Nails""",29707,4,17,Nail Salons;Beauty & Spas
+"""Brewster's Pub""",44308,4,4,Nightlife;Pubs;Bars
+"""Kool Pool Care & Repair""",85086,5,5,Home Services;Contractors;Pool & Hot Tub Service;Pool Cleaners
+"""Pampered Hair Passionate about Hair""",89074,5,3,Hair Salons;Blow Dry/Out Services;Hair Stylists;Beauty & Spas;Hair Extensions
+"""By Design""",28134,2.5,3,Home & Garden;Furniture Stores;Shopping
+"""Ciao Baby Catering""",85260,2,5,Event Planning & Services;Caterers
+"""Yuzu""",44107,3.5,78,Nightlife;Izakaya;Comfort Food;Cocktail Bars;Asian Fusion;Bars;Japanese;Restaurants;Gastropubs;Tapas/Small Plates
+"""Task Electric""",89113,4.5,20,Home Services;Lighting Fixtures & Equipment;Local Services;Electricians;TV Mounting
+"""TCBY""",28036,3.5,3,Desserts;Ice Cream & Frozen Yogurt;Food
+"""Olsen Firearms""",85331,5,9,Shopping;Guns & Ammo
+"""Carrabba's Italian Grill""",19355,3.5,25,Restaurants;Italian;Seafood
+"""McDonald's""",85022,1,10,Fast Food;Burgers;Restaurants
+"""Charr An American Burger Bar""",85022,3,232,Burgers;Restaurants
+"""William Jon Salon & Spa""",53705,4.5,14,Tanning;Day Spas;Spray Tanning;Beauty & Spas;Hair Salons
+"""Star Nursery""",89122,3.5,25,Nurseries & Gardening;Home & Garden;Shopping
+"""Rock of Ages""",89109,4,213,Arts & Entertainment;Performing Arts
+"""Restaurant Lucca""",H2S 1J5,4.5,11,Italian;Restaurants
+"""Enterprise Rent-A-Car""",15120,3,4,Hotels & Travel;Car Rental
+"""Flight Deck Bar & Grill""",89119,4,13,Nightlife;Bars;Barbeque;Sports Bars;American (New);Restaurants
+"""Subway""",89119,2.5,6,Fast Food;Restaurants;Sandwiches
+"""GameWorks""",89119,3,349,Arcades;Arts & Entertainment;Gastropubs;Restaurants;American (New)
+"""Don Taco""",H3H 1M2,3.5,33,Restaurants;Mexican
+"""My Fitness World""",28203,5,4,Active Life;Fitness & Instruction;Gyms
+"""Kitchen M""",L3P 5E5,3,80,Restaurants;Chinese
+"""Amy's Lash & Beauty Spa""",M4T 1W4,3.5,7,Eyelash Service;Beauty & Spas
+"""Kool Radiator Service""",89102,3.5,9,Automotive;Auto Repair
+"""John Armond Actor's Studio""",89117,4.5,12,Education;Performing Arts;Specialty Schools;Art Schools;Arts & Entertainment
+"""Cinnabon""",89107,4,3,Food;Coffee & Tea;Desserts
+"""Falls Auto Body""",44223,5,3,Automotive;Body Shops;Auto Glass Services
+"""D&D Cleaning""",61802,5,4,Home Cleaning;Home Services;Window Washing
+"""River Moon Cafe""",15201,4,5,Cafes;Restaurants
+"""Pil Son""",M5K 1H1,5,3,Health & Medical;General Dentistry;Dentists
+"""Crazy Kleen Carpet Cleaning""",85379,4.5,5,Office Cleaning;Carpet Cleaning;Professional Services;Home Cleaning;Home Services;Local Services
+"""KS Audio Video""",28031,5,5,Home Services;Television Service Providers;Home Automation;Home Theatre Installation;Professional Services
+"""The Bluebird Cafe""",EH3 5HA,4.5,16,Breakfast & Brunch;Diners;Restaurants;Cafes;British
+"""LaPuma Bakery""",44026,3.5,3,Bakeries;Food
+"""Carle Clinic Association""",61801,2.5,6,Doctors;Health & Medical
+"""Christopher Huston, MD - TOCA""",85016,2,18,Orthopedists;Health & Medical;Doctors
+"""McDonald's""",85016,3,34,Restaurants;Burgers;Fast Food
+"""Sports Authority""",85054,2.5,21,Sporting Goods;Shopping
+"""Banana Republic""",53719,2,8,Men's Clothing;Women's Clothing;Fashion;Shopping
+"""Crazy Mocha Coffee""",15201,3.5,16,Restaurants;Sandwiches;Coffee & Tea;Food
+"""Bruegger's Bagels""",15236,2.5,5,Breakfast & Brunch;Bagels;Restaurants;Bakeries;Sandwiches;Food
+"""Fairfield Inn & Suites""",28105,4,17,Hotels;Event Planning & Services;Hotels & Travel
+"""G G & D Motor Vehicle Services""",85301,2,12,Shopping;Public Services & Government;Departments of Motor Vehicles
+"""Emergency Chiropractic""",85282,2.5,3,Health & Medical;Chiropractors
+"""Little Caesars Pizza""",85209,2.5,4,Restaurants;Pizza
+"""Villa Tap""",53704,4,34,American (Traditional);Nightlife;Dive Bars;Restaurants;Bars
+"""Tenors of Rock""",89109,4.5,46,Performing Arts;Arts & Entertainment
+"""Starlight Tattoo""",89109,4,24,Beauty & Spas;Piercing;Tattoo
+"""Scott's Karat Patch""",28209,4,5,Watch Repair;Jewelry Repair;Shopping;Local Services;Jewelry
+"""The Brink Lounge""",53703,3.5,30,Event Planning & Services;Nightlife;Lounges;Venues & Event Spaces;Bars
+"""Thai Express""",M3J 1P3,3,5,Imported Food;Specialty Food;Thai;Ethnic Food;Food;Restaurants
+"""Havel's Flowers & Greenhouses""",44060,3.5,4,Florists;Wholesale Stores;Shopping;Flowers & Gifts
+"""Caviness Studio""",85001,5,4,Marketing;Men's Clothing;Restaurants;Graphic Design;Women's Clothing;Screen Printing;Advertising;Pizza;Shopping;Web Design;Fashion;Local Services;Screen Printing/T-Shirt Printing;Professional Services
+"""International Exposition Center""",44135,4,16,Venues & Event Spaces;Event Planning & Services
+"""Fraticelli's Authentic Italian Grill""",L4B 3K4,3,88,Restaurants;Italian
+"""Cafe Mastrioni""",89103,1.5,3,Italian;Restaurants
+"""Poty Group""",85207,5,3,Real Estate Agents;Home Services;Real Estate
+"""Dayton Family Medicine""",85207,2.5,3,Optometrists;Doctors;Internal Medicine;Health & Medical
+"""Mitchell's Ice Cream - Solon Shop""",44139,4.5,42,Ice Cream & Frozen Yogurt;Food
+"""City of Mesa Cemetary""",85201,4.5,3,Religious Organizations
+"""Flavor Cuisine""",M1S 2C1,3,6,Restaurants;Chinese;Food Court
