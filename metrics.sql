@@ -7,3 +7,4 @@ SELECT COUNT(*) FROM yelp WHERE categories LIKE '%Food%';
 SELECT AVG(stars) FROM yelp WHERE categories LIKE '%Food%';
 SELECT * from yelp ORDER BY stars DESC LIMIT 2;
 SELECT * from yelp WHERE categories LIKE '%Food%' ORDER BY stars DESC LIMIT 2;
+
