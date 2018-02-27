@@ -10,12 +10,15 @@ db.init_app(app)
 
 def main():
     db.create_all()
-    
+
     mcdonalds = Restaurant(name="McDonalds", cuisine="fast-food")
     db.session.add(mcdonalds)
     db.session.commit()
+
     mcdonalds.add_dish(name="Big Mac", ingredients="fake beef, cheese", spicy_level=0)
     db.session.commit()
+
+    print(Restaurant.query.all()[0].__repr__())
 
     # Add more dishes
 
