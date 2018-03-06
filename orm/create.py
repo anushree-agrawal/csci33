@@ -20,6 +20,7 @@ def main():
 
     print(Restaurant.query.all()[0].__repr__())
 
+
     # Add more dishes
 
 if __name__ == "__main__":

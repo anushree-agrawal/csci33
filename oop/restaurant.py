@@ -32,4 +32,5 @@ def main():
     mcdonalds = Restaurant("McDonalds", "fast-food")
     mcdonalds.add_dish(Dish("Big Mac", ["fake beef", "cheese"], 0))
     print(mcdonalds.__str__())
+    print(mcdonalds)
 

@@ -45,7 +45,7 @@ def main():
     print(mcdonalds.__str__())
 
     mcdonalds.add_dish(Dish("Chicken McNuggets", ["fake chicken", "bread"], 2))
-    print(mcdonalds.__str__())
+    print(mcdonalds)
 
 if __name__ == "__main__":
     main()
