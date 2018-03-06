@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function say_hello() {
+                alert("Hello!");
+                console.log("Successfully said hello");
+            }
+            function do_math() {
+                alert(12);
+            }
+            function change_header() {
+                document.querySelector("h1").innerHTML = "Goodbye!";
+            }
+            function id_header() {
+                document.querySelector("#header").innerHTML = "Header example!";
+            }
+            let change = false;
+            function switch_header() {
+                if (change) {
+                    document.querySelector("#s_header").innerHTML = "Header 2";
+                    change = false;
+                } else {
+                    document.querySelector("#s_header").innerHTML = "Header 1";
+                    change = true;
+                }
+            }
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <h1 id="header">Second header</h1>
+        <h1 id="s_header">Switching header</h1>
+        <button onclick="say_hello()">Click to say hello</button>
+        <button onclick="do_math()">5+7</button>
+        <button onclick="change_header()">Change header</button>
+        <button onclick="id_header()">Change second header</button>
+
+        <button onclick="switch_header()">Flip flop header</button>
+    </body>
+</html>

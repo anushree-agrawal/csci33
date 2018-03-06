@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', () => {
+                setInterval(task, 1000);
+            });
+
+            let counter = 0;
+
+            function task() {
+                counter++;
+                const li = document.createElement('li');
+                li.innerHTML = counter;
+                document.querySelector('#tasks').append(li);
+            }
+
+            function clear_li() {
+                counter = 0;
+                var ul = document.querySelector('#tasks');
+                if (ul) {
+                    while (ul.firstChild) {
+                        ul.removeChild(ul.firstChild);
+                    }
+                }
+            }
+
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <button onclick="clear_li()">Clear</button>
+        <h1>Tasks</h1>
+        <ul id="tasks">
+        </ul>
+    </body>
+</html>
