@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <style>
+            .loader {
+              height: 250px;
+              width: 250px;
+              margin: 0 auto;
+              animation-name: stretch;
+              animation-duration: 1.5s; 
+              animation-timing-function: ease-out; 
+              animation-delay: 0;
+              animation-direction: alternate;
+              animation-iteration-count: 2;
+              animation-fill-mode: none;
+              animation-play-state: running;
+            }
+
+            @keyframes stretch {
+              0% {
+                transform: scale(.3);
+                background-color: red;
+                border-radius: 100%;
+              }
+              50% {
+                background-color: orange;
+              }
+              100% {
+                transform: scale(1.5);
+                background-color: yellow;
+              }
+            }
+        </style>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', () => {
+
+                // Start by loading first page.
+                load_page('first');
+
+                // Set links up to load new pages.
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.onclick = () => {
+                        const page = link.dataset.page;
+                        load_page(page);
+                        return false;
+                    };
+                });
+            });
+
+            // Update text on popping state.
+            window.onpopstate = e => {
+                const data = e.state;
+                document.title = data.title;
+                document.querySelector('#body').innerHTML = data.text;
+            };
+
+            // Renders contents of new page in main view.
+            function load_page(name) {
+                const request = new XMLHttpRequest();
+                request.open('GET', `/${name}`);
+                request.onload = () => {
+                    const response = request.responseText;
+
+                    document.querySelector("#body").innerHTML = response;
+
+                    // Push state to URL.
+                    document.title = name;
+                    history.pushState({'title': name, 'text': response}, name, name);
+
+                    const hide = document.createElement('button');
+                    hide.className = 'hide';
+                    hide.innerHTML = 'Hide';
+
+                    // When hide button is clicked, remove post.
+                    hide.onclick = function() {
+                        this.parentElement.innerHTML = '';
+                        const loader = document.createElement('div')
+                        loader.className = 'loader';
+                        document.querySelector("#body").append(loader);
+                    };
+                    document.querySelector('#body').append(hide);
+                };
+                request.send();
+            }
+
+        </script>
+    </head>
+    <body>
+        <ul id="nav">
+            <li><a href="" class="nav-link" data-page="first">First Page</a></li>
+            <li><a href="" class="nav-link" data-page="second">Second Page</a></li>
+            <li><a href="" class="nav-link" data-page="third">Third Page</a></li>
+            <li><a href="" class="nav-link" data-page="custom_page">Custom Page </a><li
+        </ul>
+        <hr>
+        <div id="body">
+        </div>
+    </body>
+</html>
