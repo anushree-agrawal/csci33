@@ -3,7 +3,6 @@ import unittest
 
 class TestDog(unittest.TestCase):
 
-    @classmethod
     def setUp(self):
         self.a = Dog(color="black", breed="corgi")
 
@@ -36,7 +35,6 @@ class TestDog(unittest.TestCase):
 
 class TestDogHouse(unittest.TestCase):
 
-    @classmethod
     def setUp(self):
         self.a = Dog(color="black", breed="corgi")
         self.b = Dog(color="orange", breed="poodle")

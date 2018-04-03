@@ -13,6 +13,7 @@ class Dog:
         if self.hungry:
             self.hungry = False
         else:
+            # For better coding, don't always raise ValueError - quick example.
             raise ValueError("Dog is already fed")
 
     def set_hungry(self):
