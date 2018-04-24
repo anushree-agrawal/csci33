@@ -23,4 +23,4 @@ class Passenger(models.Model):
     frequent_flyer = models.IntegerField()
 
     def __str__(self):
-        return f"{self.first} {self.last} FF: {self.frequent_flyer}"
+        return f"{self.first} {self.last} {self.flights.all()} FF: {self.frequent_flyer}"
