@@ -1,0 +1,17 @@
+.first { 
+    color: red;
+    font-weight: bold;
+    margin: 100px;
+}
+
+.first > .second {
+    color: blue;
+}
+
+#google {
+    color: red;
+}
+
+div {
+    color: green;
+}
