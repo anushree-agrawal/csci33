@@ -15,7 +15,7 @@ def main():
             db.execute("INSERT INTO yelp (name, postal_code, stars, review_count, categories) VALUES (:name, :postal_code, :stars, :review_count, :categories)",
                     {"name": name, "postal_code": pc, "stars": float(stars), "review_count": int(rv_ct), "categories": categories})
             insertions += 1
-            print("Added %d businesses into table Yelp." % insertions)
         db.commit()
+        print("Added %d businesses into table Yelp." % insertions)
 if __name__ == "__main__":
     main()
