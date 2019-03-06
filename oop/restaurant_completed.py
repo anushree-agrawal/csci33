@@ -46,6 +46,18 @@ def main():
 
     mcdonalds.add_dish(Dish("Chicken McNuggets", ["fake chicken", "bread"], 2))
     print(mcdonalds)
+    print(mcdonalds.count)
+
+    burger_king = Restaurant("burgerKing", "fast food")
+    print(mcdonalds.count)
+    print(burger_king.count)
+    print(Restaurant.count)
+    print("Next")
+    taco_bell = Restaurant("Taco Bell", "fast food")
+    print(mcdonalds.count)
+    print(burger_king.count)
+    print(Restaurant.count)
+    print(taco_bell.count)
 
 if __name__ == "__main__":
     main()

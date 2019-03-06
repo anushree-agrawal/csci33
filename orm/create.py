@@ -19,6 +19,7 @@ def main():
     db.session.commit()
 
     print(Restaurant.query.all()[0].__repr__())
+    print(Restaurant.query.all()[0])
 
 
     # Add more dishes
