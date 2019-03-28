@@ -45,7 +45,9 @@
 
                         // When hide button is clicked, remove post.
                         hide.onclick = function() {
-                            this.parentElement.remove();
+                            const parent = this.parentElement;
+                            parent.parentElement.remove();
+                            parent.remove();
                         };
                         document.querySelector('#body').append(hide); 
                     }
